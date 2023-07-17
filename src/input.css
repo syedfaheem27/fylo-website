@@ -2,4 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+#logo {
+  @apply bg-center dark:bg-[url('../images/logo-dark-mode.svg')] bg-[url('../images/logo-light-mode.svg')]
+  bg-no-repeat;
+}
