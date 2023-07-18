@@ -6,3 +6,6 @@
   @apply bg-center dark:bg-[url('../images/logo-dark-mode.svg')] bg-[url('../images/logo-light-mode.svg')]
   bg-no-repeat;
 }
+#hero {
+  @apply bg-[url('../images/bg-curvy-light-mode.svg')] dark:bg-[url('../images/bg-curvy-dark-mode.svg')] bg-contain bg-bottom bg-no-repeat;
+}
